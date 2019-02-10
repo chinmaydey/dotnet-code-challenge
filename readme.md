@@ -14,18 +14,10 @@ The data files are used allows creation of different races:
 * Caulfield_Race1.xml https://beteasy.com.au/racing-betting/horse-racing/caulfield/20171216/race-1-798068-25502504  
 * Wolferhampton_Race1.json https://beteasy.com.au/racing-betting/horse-racing/wolverhampton/20171213/race-1-797507-25500650
 
-## Guidelines
+## Solution
 
-You can either complete the test prior to the interview or come in and do it as part of the technical interview. The application shell provided is a suggestion only, if C#/.Net isn't your preferred language/Framework please use what you're most comfortable with.
+The solution is .net core console application using Repository Pattern to get Horse and their Price data. Repository pattern provides flexibility to choose data source for Horse and Price which is right now in XML and Json files.
 
-### At Home
-* Please limit your time to 2 hours. If you don't complete it within this time just let us know what is outstanding.
-* Commit your code at regular intervals so we can see how you reached your solution
-* Once completed push to a public repo and share the link with us
-* Please replace this ReadMe with any setup required
+Controller gathers data from variuos repositories and then sorts and displays the data on console.
 
-### At BetEasy
-* The goal of this challenge is not to complete the exercise, but to give us an understanding on how you tackle problems. Please talk us through your thinking process & assumptions as you go.
-* Feel free to use any resources you would normally use (Google, StackOverflow etc.)
-* Please ask any questions you wish
-* The coding exercise will be done on the developer test laptop (1141): Test // Wagering99
+I have used MoQ framework to test Controller and Contexts.
