@@ -12,22 +12,29 @@ namespace dotnet_code_challenge
     {
         static void Main(string[] args)
         {
-            // get xml file path
-            var info = new DirectoryInfo(Path.GetDirectoryName(Assembly.GetEntryAssembly().Location));
+            try
+            {
+                // get xml file path
+                var info = new DirectoryInfo(Path.GetDirectoryName(Assembly.GetEntryAssembly().Location));
 
-            var xmlFilePath = Path.Combine(info.Parent.Parent.Parent.FullName, @"FeedData\Caulfield_Race1.xml");
-            var jsonFilePath = Path.Combine(info.Parent.Parent.Parent.FullName, @"FeedData\Wolferhampton_Race1.json");
+                var xmlFilePath = Path.Combine(info.Parent.Parent.Parent.FullName, @"FeedData\Caulfield_Race1.xml");
+                var jsonFilePath = Path.Combine(info.Parent.Parent.Parent.FullName, @"FeedData\Wolferhampton_Race1.json");
 
-            var horseRepositoryxml = new HorseDataRepository(new XMLDataContext<Horse>(xmlFilePath));
-            var priceRepositoryxml = new PriceDataRepository(new XMLDataContext<Price>(xmlFilePath));
+                var horseRepositoryxml = new HorseDataRepository(new XMLDataContext<Horse>(xmlFilePath));
+                var priceRepositoryxml = new PriceDataRepository(new XMLDataContext<Price>(xmlFilePath));
 
-            var horseRepositoryjson = new HorseDataRepository(new JSONDataContext<Horse>(jsonFilePath));
-            var priceRepositoryjson = new PriceDataRepository(new JSONDataContext<Price>(jsonFilePath));
+                var horseRepositoryjson = new HorseDataRepository(new JSONDataContext<Horse>(jsonFilePath));
+                var priceRepositoryjson = new PriceDataRepository(new JSONDataContext<Price>(jsonFilePath));
 
-            var horseOrderingController = new HorseOrderingController(horseRepositoryxml, priceRepositoryxml, horseRepositoryjson, priceRepositoryjson);
-            horseOrderingController.DisplayData(horseOrderingController.GetSortedHorsesByPrice());
+                var horseOrderingController = new HorseOrderingController(horseRepositoryxml, priceRepositoryxml, horseRepositoryjson, priceRepositoryjson);
+                horseOrderingController.DisplayData(horseOrderingController.GetSortedHorsesByPrice());
 
-            Console.ReadLine();
+                Console.ReadLine();
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine($"Exception: {ex}");
+            }
         }
     }
 }
