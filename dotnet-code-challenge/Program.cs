@@ -1,5 +1,8 @@
 ﻿using dotnet_code_challenge.Contexts;
+using dotnet_code_challenge.Controller;
 using dotnet_code_challenge.Models;
+using dotnet_code_challenge.Repositories;
+using System;
 using System.IO;
 using System.Reflection;
 
@@ -15,17 +18,16 @@ namespace dotnet_code_challenge
             var xmlFilePath = Path.Combine(info.Parent.Parent.Parent.FullName, @"FeedData\Caulfield_Race1.xml");
             var jsonFilePath = Path.Combine(info.Parent.Parent.Parent.FullName, @"FeedData\Wolferhampton_Race1.json");
 
-            var horsexmlcontext = new XMLDataContext<Horse>(xmlFilePath);
-            var horsexmlcontextdata = horsexmlcontext.GetAll();
+            var horseRepositoryxml = new HorseDataRepository(new XMLDataContext<Horse>(xmlFilePath));
+            var priceRepositoryxml = new PriceDataRepository(new XMLDataContext<Price>(xmlFilePath));
 
-            var pricexmlcontext = new XMLDataContext<Price>(xmlFilePath);
-            var pricexmlcontextdata =  pricexmlcontext.GetAll();
+            var horseRepositoryjson = new HorseDataRepository(new JSONDataContext<Horse>(jsonFilePath));
+            var priceRepositoryjson = new PriceDataRepository(new JSONDataContext<Price>(jsonFilePath));
 
-            var horsejsoncontext = new JSONDataContext<Horse>(jsonFilePath);
-            var horsejsoncontextdata = horsejsoncontext.GetAll();
+            var horseOrderingController = new HorseOrderingController(horseRepositoryxml, priceRepositoryxml, horseRepositoryjson, priceRepositoryjson);
+            horseOrderingController.DisplayData(horseOrderingController.GetSortedHorsesByPrice());
 
-            var pricejsoncontext = new JSONDataContext<Price>(jsonFilePath);
-            var pricejsoncontextdata = pricejsoncontext.GetAll();
+            Console.ReadLine();
         }
     }
 }
