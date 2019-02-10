@@ -8,3 +8,4 @@ C:\Users\cdey\code-challenge\dotnet-code-challenge\obj\Debug\netcoreapp2.0\dotne
 C:\Users\cdey\code-challenge\dotnet-code-challenge\obj\Debug\netcoreapp2.0\dotnet-code-challenge.AssemblyInfo.cs
 C:\Users\cdey\code-challenge\dotnet-code-challenge\obj\Debug\netcoreapp2.0\dotnet_code_challenge.dll
 C:\Users\cdey\code-challenge\dotnet-code-challenge\obj\Debug\netcoreapp2.0\dotnet_code_challenge.pdb
+C:\Users\cdey\code-challenge\dotnet-code-challenge\obj\Debug\netcoreapp2.0\dotnet-code-challenge.csprojAssemblyReference.cache
