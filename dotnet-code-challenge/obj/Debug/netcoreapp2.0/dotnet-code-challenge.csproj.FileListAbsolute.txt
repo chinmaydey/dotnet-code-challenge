@@ -1,0 +1,10 @@
+C:\Users\cdey\code-challenge\dotnet-code-challenge\bin\Debug\netcoreapp2.0\dotnet_code_challenge.deps.json
+C:\Users\cdey\code-challenge\dotnet-code-challenge\bin\Debug\netcoreapp2.0\dotnet_code_challenge.runtimeconfig.json
+C:\Users\cdey\code-challenge\dotnet-code-challenge\bin\Debug\netcoreapp2.0\dotnet_code_challenge.runtimeconfig.dev.json
+C:\Users\cdey\code-challenge\dotnet-code-challenge\bin\Debug\netcoreapp2.0\dotnet_code_challenge.dll
+C:\Users\cdey\code-challenge\dotnet-code-challenge\bin\Debug\netcoreapp2.0\dotnet_code_challenge.pdb
+C:\Users\cdey\code-challenge\dotnet-code-challenge\obj\Debug\netcoreapp2.0\dotnet-code-challenge.csproj.CoreCompileInputs.cache
+C:\Users\cdey\code-challenge\dotnet-code-challenge\obj\Debug\netcoreapp2.0\dotnet-code-challenge.AssemblyInfoInputs.cache
+C:\Users\cdey\code-challenge\dotnet-code-challenge\obj\Debug\netcoreapp2.0\dotnet-code-challenge.AssemblyInfo.cs
+C:\Users\cdey\code-challenge\dotnet-code-challenge\obj\Debug\netcoreapp2.0\dotnet_code_challenge.dll
+C:\Users\cdey\code-challenge\dotnet-code-challenge\obj\Debug\netcoreapp2.0\dotnet_code_challenge.pdb

@@ -3,10 +3,10 @@ using Xunit;
 
 namespace dotnet_code_challenge.Test
 {
-    public class UnitTest1
+    public class ControllerUnitTest
     {
         [Fact]
-        public void Test1()
+        public void TestVerifyingSortedHorsesAndPrice()
         {
 
         }

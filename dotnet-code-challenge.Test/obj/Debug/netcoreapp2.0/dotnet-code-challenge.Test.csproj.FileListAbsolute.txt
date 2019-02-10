@@ -1,0 +1,17 @@
+C:\Users\cdey\code-challenge\dotnet-code-challenge.Test\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\cdey\code-challenge\dotnet-code-challenge.Test\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\cdey\code-challenge\dotnet-code-challenge.Test\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\cdey\code-challenge\dotnet-code-challenge.Test\bin\Debug\netcoreapp2.0\dotnet_code_challenge.Test.deps.json
+C:\Users\cdey\code-challenge\dotnet-code-challenge.Test\bin\Debug\netcoreapp2.0\dotnet_code_challenge.Test.runtimeconfig.json
+C:\Users\cdey\code-challenge\dotnet-code-challenge.Test\bin\Debug\netcoreapp2.0\dotnet_code_challenge.Test.runtimeconfig.dev.json
+C:\Users\cdey\code-challenge\dotnet-code-challenge.Test\bin\Debug\netcoreapp2.0\dotnet_code_challenge.Test.dll
+C:\Users\cdey\code-challenge\dotnet-code-challenge.Test\bin\Debug\netcoreapp2.0\dotnet_code_challenge.Test.pdb
+C:\Users\cdey\code-challenge\dotnet-code-challenge.Test\bin\Debug\netcoreapp2.0\dotnet_code_challenge.dll
+C:\Users\cdey\code-challenge\dotnet-code-challenge.Test\bin\Debug\netcoreapp2.0\dotnet_code_challenge.pdb
+C:\Users\cdey\code-challenge\dotnet-code-challenge.Test\obj\Debug\netcoreapp2.0\dotnet-code-challenge.Test.csprojAssemblyReference.cache
+C:\Users\cdey\code-challenge\dotnet-code-challenge.Test\obj\Debug\netcoreapp2.0\dotnet-code-challenge.Test.csproj.CoreCompileInputs.cache
+C:\Users\cdey\code-challenge\dotnet-code-challenge.Test\obj\Debug\netcoreapp2.0\dotnet-code-challenge.Test.AssemblyInfoInputs.cache
+C:\Users\cdey\code-challenge\dotnet-code-challenge.Test\obj\Debug\netcoreapp2.0\dotnet-code-challenge.Test.AssemblyInfo.cs
+C:\Users\cdey\code-challenge\dotnet-code-challenge.Test\obj\Debug\netcoreapp2.0\dotnet-code-challenge.Test.csproj.CopyComplete
+C:\Users\cdey\code-challenge\dotnet-code-challenge.Test\obj\Debug\netcoreapp2.0\dotnet_code_challenge.Test.dll
+C:\Users\cdey\code-challenge\dotnet-code-challenge.Test\obj\Debug\netcoreapp2.0\dotnet_code_challenge.Test.pdb
